@@ -1,1 +1,20 @@
 <paste log output from Kubernetes-mediated prediction, here>
+ (base) Kevins-MacBook-Pro-2:mlapi kevinchan$ ./run_kubernetes.sh 
+pod/game123-mlapi created
+NAME                            READY   STATUS              RESTARTS   AGE
+game123-mlapi                   0/1     ContainerCreating   0          0s
+game123-mlapi-5ccbf9bc8-sxbrb   1/1     Running             0          8m8s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+
+## run from second terminal 
+ (base) Kevins-MacBook-Pro-2:mlapi kevinchan$ ./make_prediction.sh 
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+
