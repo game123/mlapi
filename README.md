@@ -1,5 +1,7 @@
 <include a CircleCI status badge, here>
 
+[![game123](https://circleci.com/gh/game123/mlapi.svg?style=svg)](https://app.circleci.com/pipelines/github/game123/mlapi/3/workflows/7d83501d-7232-454a-b743-da24aaf4021d)
+
 ## Project Overview
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
