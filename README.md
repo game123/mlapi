@@ -36,8 +36,9 @@ The goal of this project is to operationalize the working, machine learning micr
 ## Setup the Environment
 
 * Create a virtualenv and activate it
-```python3 -m venv ~/.devops```
-```source ~/.devops/bin/activate```
+* Example:
+1. `python3 -m venv ~/.devops`
+2. `source ~/.devops/bin/activate`
 
 
 * Run `make install` to install the necessary dependencies
@@ -48,7 +49,7 @@ The goal of this project is to operationalize the working, machine learning micr
 2. Run in Docker:  `./run_docker.sh`
 3. Run in Kubernetes:  `./run_kubernetes.sh`
 
-### Kubernetes Steps
+### Kubernetes Steps(macOS)
 
 1. `brew cask install virtualbox`
 2. `brew cask install minikube`
